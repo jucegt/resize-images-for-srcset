@@ -1,0 +1,13 @@
+{
+	"input": "./src/*.*",
+	"output": "./dist/",
+	"fit": "cover",
+	"sizes": [
+		{
+			"name": "xs",
+			"width": 375,
+			"height": 140
+		}
+	],
+	"formats": ["webp"]
+}
