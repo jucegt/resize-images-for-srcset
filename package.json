@@ -1,0 +1,15 @@
+{
+  "name": "resizer-for-srcset",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jucegt/resizer-for-srcset.git",
+  "author": "jucegt <julio2201@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "glob": "^7.1.6",
+    "sharp": "^0.28.1"
+  },
+  "scripts": {
+    "images": "node ./index.js"
+  }
+}
