@@ -1,5 +1,7 @@
-{
-  "input": "./src/*.*",
+import IConfig from './definitions/IConfig';
+
+const config: IConfig = {
+  "input": "./src/",
   "output": "./dist/",
   "fit": "cover",
   "sizes": [
@@ -20,4 +22,6 @@
     }
   ],
   "formats": ["webp"]
-}
+};
+
+export default config;
