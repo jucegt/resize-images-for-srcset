@@ -58,4 +58,4 @@ PS. Don't forget to install the necessary modules using `yarn install` or `npm i
 - [x] ~Validate if the directory is empty or does not exist.~
 - [ ] Add the option to resize by percentage.
 - [ ] Do not resize if the sizes in the config file are larger than the original image size.
-- ???
+- [ ] Generate the picture tag per image(with the corresponding sources).
