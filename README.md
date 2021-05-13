@@ -1,4 +1,4 @@
-# Resizer for srcset
+# Resize images for srcset
 
 A simple image resize with Node.js([using sharp](https://github.com/lovell/sharp)) to generate the images in different sizes for use in srcset attribute in `<img>` tag.
 
@@ -53,8 +53,9 @@ Use `yarn images` or `npm images` to generate the images.
 
 PS. Don't forget to install the necessary modules using `yarn install` or `npm install`.
 
-### TODO:
+### TODO
 
-- Add the option to resize by percentage.
-- Do not resize if the sizes in the config file are larger than the original image size.
+- [x] ~Validate if the directory is empty or does not exist.~
+- [ ] Add the option to resize by percentage.
+- [ ] Do not resize if the sizes in the config file are larger than the original image size.
 - ???
