@@ -4,9 +4,11 @@ import config from './config';
 // Packages
 import glob from 'glob';
 
+// Functions
+import generateImages from './src/generate-images';
+
 // Console colors
 import { colors } from './src/colors';
-import generateImages from './src/generate-images';
 
 // Get all files from config input
 const files = glob.sync(`${config.input}*.*`);
