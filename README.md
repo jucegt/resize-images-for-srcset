@@ -14,11 +14,11 @@ cd resize-images
 
 ## How to use it?
 
-Create a folder in the root of the project and inside it place the images to resize(by default, it is called `src` in the config file). In the config file you can change the input and output folder of the images.
+Create a folder in the root of the project and inside it place the images to resize(by default, it is called `images` in the config file). In the config file you can change the input and output folder of the images.
 
 ```json
 {
-  "input": "./src/",
+  "input": "./images/",
   "output": "./dist/",
   ...
 }
