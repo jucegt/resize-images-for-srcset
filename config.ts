@@ -1,7 +1,7 @@
 import IConfig from './definitions/IConfig';
 
 const config: IConfig = {
-  "input": "./src/",
+  "input": "./images/",
   "output": "./dist/",
   "fit": "cover",
   "sizes": [

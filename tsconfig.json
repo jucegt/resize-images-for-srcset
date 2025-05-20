@@ -4,7 +4,8 @@
     "target": "es6",
     "lib": ["es6"],
     "esModuleInterop": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "strict": true
   },
   "exclude": [
     "node_modules"
